@@ -1,0 +1,116 @@
+img{
+    margin-top: -20px;
+    float: right;
+    width: 5%;
+    height: 5%;
+}
+.iconos{
+    float: right;
+    width: 20%;
+    height: 20%;
+}
+a{  
+    font-family: Arial;
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+    margin-left: 50px;
+}
+.inicio{
+    margin-top: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 8px 8px 5px lightblue;
+    width: 200px;
+    height: 30px;
+}
+.titulo{
+    margin-top: 50px;
+    text-align: center;
+    font-family: Arial;
+    background-color: lightblue;
+}
+.cabecera{
+    background-color: lightblue;
+    display: block;
+    height: 140px;
+    width: 100%;
+}
+.cabecera li:hover{
+    background-color: orange;
+}
+.cabecera ul li{
+    font-size: 20px;
+    display: inline-block;
+    list-style: none;
+    margin: 5px;
+}
+.cabecera a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+.lista{ 
+    font-size: 19px;
+    margin-top: 20px;
+    padding: 10px;
+    margin-right: 190px;
+    float: right;
+}
+.clases_particulares{
+ 	border: 4px solid;
+ 	padding: 40px;
+ 	display: inline-block;
+    width:250px ; 
+    height:300px;
+    border-radius: 60px; 
+    position: absolute;
+    left: 100px;
+    margin-top: 40px;
+}
+.comida{  
+    border: 4px solid;
+    padding: 40px;
+    display: inline-block;
+    width:250px; 
+    height:300px;
+    border-radius: 60px; 
+    position: absolute;
+    left: 600px;
+}
+.merchandising{
+ 	border: 4px solid;
+ 	padding: 40px;
+ 	margin-right: 1500px;
+ 	display: inline-block;
+    width:250px; 
+    height:300px;
+    border-radius: 60px; 
+    position: absolute;
+    left: 100px;
+    margin-top: 380px;
+}
+
+.picnic {
+    border: 4px solid;
+    padding: 40px;
+    display: inline-block;
+    width:250px; 
+    height:300px;
+    border-radius: 60px; 
+    position: absolute;
+    left: 600px;
+    margin-top: 340px;
+}
+
+.primerosauxilios{
+    border: 4px solid;
+    padding: 40px;
+    display: inline-block;
+    width:250px; 
+    height:300px;
+    border-radius: 60px; 
+    position: absolute;
+    left: 350px;
+    margin-top: 750px;
+}

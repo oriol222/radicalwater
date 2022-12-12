@@ -1,0 +1,79 @@
+img{
+    margin-top: -20px;
+    float: right;
+    width: 5%;
+    height: 5%;
+}
+a{  
+    font-family: Arial;
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+    margin-left: 50px;
+}
+.inicio{
+    margin-top: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 8px 8px 5px lightblue;
+    width: 200px;
+    height: 30px;
+}
+.titulo{
+    margin-top: 50px;
+    text-align: center;
+    font-family: Arial;
+    background-color: lightblue;
+}
+.texto{
+    border: 2px solid lightblue;
+    width: 1000px;
+    height: 500px;
+}
+
+fieldset {
+	margin: 50px; 
+	text-align: center; /*centrar el texto dentro de un cuadro de fieldset*/
+}
+.cabecera{
+    display: block;
+    height: 140px;
+    width: 100%;
+}
+.cookies{
+    margin:10px;
+    position: fixed;
+    bottom: 0;
+    background-color: orange;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cookies .contenedor-cookies{
+    padding: 20px 0;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+}
+.cookies .contenedor-cookies .parrafo p{
+    color: black;
+}
+.cookies .contenedor-cookies .parrafo a{
+    color: red;
+}
+.cookies .contenedor-cookies .botones{
+    display: flex;
+    flex-direction: column;
+}
+.cookies .contenedor-cookies .botones button{
+    color: black;
+    border: 2px solid gray;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+.cookies .contenedor-cookies .botones button:hover{
+    background-color: lightblue;
+}
+.cookies .contenedor-cookies .botones button:last-child{
+    margin-top: 5px;
+}

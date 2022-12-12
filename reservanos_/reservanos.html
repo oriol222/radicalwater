@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title> RESERVANOS </title>
+
+	<link rel="shortcut icon" href="logo.png">
+
+	<link rel="stylesheet" type="text/css" href="reservanos.css">
+
+</head>
+
+<body>
+
+        <header>
+                <img alt="prin" src="logo.png">
+
+                <div class="inicio">
+                <a href="../index.html"> Volver a menu </a>
+                </div>
+
+        </header>
+
+            
+        <div class="titulo">
+
+        <h1> RESERVANOS </h1>
+
+        </div>  
+        
+
+		
+			<form action="reserva.php" method="post">
+				  <fieldset>
+
+				Nombre <br>
+				<input type="text" name="nombre" value="">
+				<br>
+				<br>
+
+
+				Apellidos <br>
+				<input type="text" name="nombre" value="">
+				<br>
+				<br>
+
+
+				Sexo <br>
+				<input type="radio" name="sexo" value="hombre" checked="checked"> Hombre
+				<input type="radio" name="sexo" value="mujer"> Mujer
+				<br>
+				<br>
+
+				Email: <input type="email" name="email">
+				<input type="submit" value="Enviar">
+				<br>
+				<br>
+
+				Teléfono: <input type="tel" name="telefono">
+		   		<input type="submit" value="Enviar">
+		   		<br>
+		   		<br>
+			
+						
+				Nivel  <br>
+				<input name="nivel_alto" type="checkbox" value="Alto"> Alto 
+				<input name="nivel_bajo" type="checkbox" value="Bajoo"> Bajo 
+				<input name="nivel_medio" type="checkbox" value="Medio"> Medio
+				<br>
+				<br>
+
+				Fecha de reserva: <input type="date" name="fecha">
+				<br>
+				<br>
+
+				Hora de reserva <br>
+				<input type="text" name="hora" value="" placeholder="00:00"> 
+				<br>
+				<br>
+
+				Numero de personas
+				<span class="numero_personas"><select name="personas" class="control_select" aria-invalid="false">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+				</select></span>
+				<br>
+				<br>
+
+				Comentario <br>
+				<span class="wpcf7-form-control-wrap comentario"><textarea name="comentario" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span>
+				
+				<br><br>
+
+				<input type="reset" name="limpiar" value="Borrar datos del formulario">
+				<input type="submit" name="guardar" value="Guardar Cambios">
+			
+				  </fieldset>
+				  </form>
+
+	<div class="cookies">
+
+            <div class="contenedor-cookies">
+                <div class="parrafo">
+                <p> “Utilizamos cookies propias y de terceros para analizar nuestros servicios y mostrarte publicidad relacionada con tus preferencias en base a un perfil elaborado a partir de tus hábitos de navegación. 
+                El responsable del fichero, recoge estos datos a través de Google Forms. Al marcar la casilla de aceptación das tu consentimiento. Esta información quedará almacenada en los servidores de Google. 
+
+                    <a href="http://www.joserodriguez.info/bloc/politica-de-cookies">Politicas de cookies</a></p>
+            </div>
+    <div class="botones">
+                        
+        <button id="aceptar">Aceptar</button>
+        <button id="cerrar">Cerrar</button>
+     </div>
+
+	 </div>
+	 </div>
+            <script>
+                const btn_cerrar = document.querySelector('#cerrar')
+                const btn_aceptar = document.querySelector('#aceptar')
+                const cont_cookies = document.querySelector('.cookies')
+                btn_cerrar.addEventListener('click', () => {
+                    cont_cookies.style.bottom = '-200px'
+                })
+                btn_aceptar.addEventListener('click', () => {
+                    cont_cookies.style.bottom = '-200px'
+                })
+            </script>
+
+
+</body>
+
+
+
+</html>

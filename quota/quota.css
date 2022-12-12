@@ -1,0 +1,87 @@
+body{
+  font-family: Arial;
+}
+img{
+    margin-top: -20px;
+      float: right;
+      width: 5%;
+      height: 5%;
+  }
+  a{  
+      font-family: Arial;
+      text-decoration: none;
+      font-weight: bold;
+      color: red;
+      margin-left: 50px;
+  }
+  .inicio{
+      margin-top: 30px;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      box-shadow: 8px 8px 5px lightblue;
+      width: 200px;
+      height: 30px;
+  }
+  .titulo{
+      margin-top: 50px;
+      text-align: center;
+      font-family: Arial;
+      background-color: lightblue;
+  }
+.texto{
+  font-size: 12px;
+  margin-left: 300px;
+  text-align: center;
+  border: 2px solid lightblue;
+  width: 30%;
+  height: 300px;
+}
+.texto1{
+  font-size: 12px;
+  margin-top: -300px;
+  margin-left: 900px;
+  text-align: center;
+  border: 2px solid lightblue;
+  width: 30%;
+  height: 300px;
+}
+.texto2{
+  font-size: 12px;
+  margin-top: 50px;
+  margin-left: 300px;
+  text-align: center;
+  border: 2px solid lightblue;
+  width: 30%;
+  height: 300px;
+}
+.texto3{
+  font-size: 12px;
+  margin-top: -300px;
+  margin-left: 900px;
+  text-align: center;
+  border: 2px solid lightblue;
+  width: 30%;
+  height: 300px;
+}
+.ic1{
+  margin-right: 230px;
+  margin-top: 50px;
+  width: 15%;
+  height: 20%;
+}
+.ic2{
+  margin-top: -40px;
+  margin-right: 230px;
+  width: 15%;
+  height: 20%;
+}.ic3{
+  margin-right: 230px;
+  margin-top: 50px;
+  width: 15%;
+  height: 20%;
+}.ic4{
+  margin-right: 220px;
+  margin-top: -40px;
+  width: 20%;
+  height: 25%;
+}
